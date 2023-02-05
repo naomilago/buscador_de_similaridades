@@ -29,7 +29,39 @@
 </head>
 <body>
 
-  <h1>find_similarities</h1>
+  <div class="header">
+
+    <h1> Encontrar similaridades </h1>
+
+    <button onclick="switchPage(id)" id="home" class="border">Home</button>
+
+  </div>
+
+  <div class="content">
+
+    <p class="paragraph">
+      Digite as palavras ou termos que deseja encontrar similaridades abaixo: <br> <br>
+    </p>
+
+    <div class="form">
+      <label for="pesquisa" class="label">Pesquisa:</label>
+      <input type="text" class="text" name="pesquisa" id="input_text" />
+      <!-- <img class=" input_icon" width=26 height=26 src='./assets/img/search_icon.png' /> -->
+    </div>
+
+    <div class="results" id='results'>
+      
+    </div>
+
+    <div class="illustration">
+      <img src='./assets/img/illustration.png' />
+    </div>
+
+    <div class="footer">
+      by Naomi Lago
+    </div>
+
+  </div>
 
   <script src="./assets/js/app.js"></script>
 

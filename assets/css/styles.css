@@ -167,3 +167,57 @@ h1 {
   color: inherit;
 }
 
+.content .form {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 120px;
+  text-align-last: start;
+  margin: 0 auto;
+}
+
+.form .label {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.form .text {
+  height: 72px;
+  border-radius: 4px;
+  border-color: var(--gray2);
+  border-style: double;
+}
+
+input[type='text'] {
+  color: #212121;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-family: inherit;
+  font-size: 20px;
+  background:  #EBEDF0 url("/assets/img/search_icon.png") no-repeat right;
+  background-size: 26px;
+  background-origin: content-box;
+}
+
+.form {
+  width: 100%;
+}
+
+.content .results {
+  margin-top: 70px;
+}
+
+.content .results div {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: end;
+  margin-bottom: 36px;
+}
+
+.illustration {
+  position: absolute;
+  bottom: 72px;
+  right: 200px
+}
