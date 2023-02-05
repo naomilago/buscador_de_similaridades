@@ -11,6 +11,6 @@ function switchPage(id) {
   } else if (id === 'faq') {
     window.open('./faq.html', EventTarget='_self')
   } else if (id === 'home') {
-    window.open('./home.html', EventTarget='_self')
+    window.open('./index.html', EventTarget='_self')
   }
 }
