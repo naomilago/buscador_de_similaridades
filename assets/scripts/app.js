@@ -1,11 +1,12 @@
-let home = document.querySelector('#home')
-let find_similarities = document.querySelector('#find_similarities')
-let credits = document.querySelector('#credits')
-let faq = document.querySelector('#faq')
+// import w2v from 'word2vec' 
+
+// const spawner = require('child_process')
 
 let input = document.querySelector('#input_text')
 
 let results = document.querySelector('#results')
+
+console.log(w2v)
 
 function switchPage(id) {
   if (id === 'find_similarities') {
