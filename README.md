@@ -31,6 +31,7 @@
 | Cinza 2 | ![#B3BEC5](https://via.placeholder.com/10/B3BEC5?text=+) #B3BEC5 |
 | Cinza 3 | ![#C0C0C0](https://via.placeholder.com/10/C0C0C0?text=+) #C0C0C0 |
 | Cinza 4 | ![#C5C3C6](https://via.placeholder.com/10/C5C3C6?text=+) #C5C3C6 |
+| Cinza 5 | ![#BEC9CF](https://via.placeholder.com/10/BEC9CF?text=+) #BEC9CF |
 | Prata | ![#DBE1E4](https://via.placeholder.com/10/DBE1E4?text=+) #DBE1E4 |
 | Ouro | ![#FFD700](https://via.placeholder.com/10/FFD700?text=+) #FFD700 |
 | Cobre | ![#B87333](https://via.placeholder.com/10/FFD700?text=+) #B87333 |
