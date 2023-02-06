@@ -10,8 +10,8 @@
 
 ## Capturas de tela
 
-![App Screenshot](./assets/img/Home.png)
-![App Screenshot](./assets/img/Similarities.png)
+![App Screenshot](./static/img/Home.png)
+![App Screenshot](./static/img/Similarities.png)
 
 
 ## Tecnoloias
