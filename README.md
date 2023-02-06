@@ -16,7 +16,7 @@
 
 ## Tecnoloias
 
-**Bibliotecas:** Pandas, Numpy, Sklearn, Gensim, NLTK
+**Bibliotecas:** Flask, Pandas, Numpy, Sklearn, Gensim, NLTK
 
 **Linguagens:** Python, JavaScript
 
