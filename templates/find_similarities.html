@@ -43,24 +43,25 @@
       Digite as palavras ou termos que deseja encontrar similaridades abaixo: <br> <br>
     </p>
 
-    <div class="form">
+    {% block content %}
+    <form action="#" method="post">
       <label for="pesquisa" class="label">Pesquisa:</label>
       <input type="text" class="text" name="pesquisa" id="input_text" />
-      <!-- <img class=" input_icon" width=26 height=26 src='./assets/img/search_icon.png' /> -->
-    </div>
+    </form>
+    {% endblock %}
 
     <div class="results" id='results'>
       <div>
         <img src="../static/img/1st.png" alt="icon">
-        <p>Word</p>
+        <p>&nbsp;&nbsp;{{ res1 }}</p>
       </div>
       <div>
         <img src="../static/img/2nd.png" alt="icon">
-        <p>Word</p>
+        <p>&nbsp;&nbsp;{{ res2 }}</p>
       </div>
       <div>
         <img src="../static/img/3rd.png" alt="icon">
-        <p>Word</p>
+        <p>&nbsp;&nbsp;{{ res3 }}</p>
       </div>
     </div>
 
